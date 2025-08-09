@@ -1,0 +1,36 @@
+{
+  "twitter": {
+    "consumer_key": "YOUR_TWITTER_CONSUMER_KEY",
+    "consumer_secret": "YOUR_TWITTER_CONSUMER_SECRET",
+    "access_token": "YOUR_TWITTER_ACCESS_TOKEN",
+    "access_token_secret": "YOUR_TWITTER_ACCESS_TOKEN_SECRET"
+  },
+  "gemini": {
+    "api_key": "YOUR_GEMINI_API_KEY",
+    "model": "gemini-2.5-flash"
+  },
+  "target_users": [
+    {
+      "user_id": "imo64_kun",
+      "username": "imo64／いもむし ~Worlds Beyond~",
+      "note": "im64のID"
+    },
+    {
+      "user_id": "coffin499",
+      "username": "ごみぃ2",
+      "note": "開発者のゴミアカウント"
+    }
+  ],
+  "image_settings": {
+    "enabled": true,
+    "folder_path": "./images",
+    "send_probability": 0.7,
+    "note": "send_probabilityは0.0-1.0の範囲で、画像を送信する確率を指定"
+  },
+  "message_prompts": [
+    "しょうもない豆知識を100文字以内で作成してください。'ねえ知ってる？'から始まり、文末に'なんだって'といった形で文章を考えてください"
+  ],
+  "fallback_messages": [
+    "このメッセージは表示されないはずだよ。https://github.com/coffin399/im64DMSender"
+  ]
+}
