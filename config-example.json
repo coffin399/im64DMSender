@@ -24,7 +24,7 @@
   "image_settings": {
     "enabled": true,
     "folder_path": "./images",
-    "send_probability": 0.7,
+    "send_probability": 1.0,
     "note": "send_probabilityは0.0-1.0の範囲で、画像を送信する確率を指定"
   },
   "message_prompts": [
